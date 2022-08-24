@@ -1,0 +1,13 @@
+### GET /
+GET http://localhost:3000/api/posts
+
+
+### Create a new Post
+POST http://localhost:3000/localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "id": "1",
+    "title": "Hello",
+    "content": "blubb"
+}
