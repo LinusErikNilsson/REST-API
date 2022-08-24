@@ -8,7 +8,7 @@ app.use(consolelogger);
 
 app.get('/', (req, res) => {
     res.status(200).json("Hello world!");
-})
+});
 
 app.post("/api/post", securedLoggedIn, (req, res) => {
     // Create post
