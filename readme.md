@@ -1,5 +1,11 @@
 ### Welcome to the REST API
 
+### To run this project, the following is required:
+- node.js
+- Typescript
+- Nodemon
+- express
+
 
 *** Uppfyllda funktionskrav: 1-7 ***
 1. Projektet innehåller minst 4 st. endpoints (GET, POST, PUT & DELETE för en resurs)
@@ -9,9 +15,3 @@
 5. Git & GitHub har använts
 6. Projektmappen innehåller en README.md fil - (läs ovan för mer info)
 7. Uppgiften lämnas in i tid!
-
-### To run this project, the following is required:
-- node.js
-- Typescript
-- Nodemon
-- express
