@@ -4,6 +4,7 @@ import { createPost, deletePost, getAllPosts } from "./post.controller";
 
 const postRouter = express.Router()
 postRouter.get("/", getAllPosts)
+postRouter.put("/", )
 postRouter.post("/", securedLoggedIn, createPost)
 postRouter.delete("/:id", deletePost);
 

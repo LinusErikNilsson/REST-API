@@ -1,5 +1,7 @@
 ### Welcome to the REST API
 
+Link to repo: https://github.com/LinusErikNilsson/REST-API
+
 ### To run this project, the following is required:
 - node.js
 - Typescript
