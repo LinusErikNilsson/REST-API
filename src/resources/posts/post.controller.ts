@@ -1,8 +1,13 @@
 import { Request, Response } from "express";
 
 export const getAllPosts =  (req: Request, res: Response) => {
-    res.status(200).json("Hello world!");
+    throw new Error("Dev error");
+    res.status(200).json("Hello Get All!");
 };
+
+export const putPost = (req: Request, res: Response) => {
+    res.status(200).json("Hello put");
+}
 
 export const createPost =  (req: Request, res: Response) => {
     // Create post

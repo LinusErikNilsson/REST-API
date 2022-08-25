@@ -1,10 +1,10 @@
 import express from "express";
 import { securedLoggedIn } from "../../middlewares";
-import { createPost, deletePost, getAllPosts } from "./post.controller";
+import { createPost, deletePost, getAllPosts, putPost } from "./post.controller";
 
 const postRouter = express.Router()
 postRouter.get("/", getAllPosts)
-postRouter.put("/", )
+postRouter.put("/", putPost)
 postRouter.post("/", securedLoggedIn, createPost)
 postRouter.delete("/:id", deletePost);
 

@@ -1,13 +1,19 @@
 ### GET /
 GET http://localhost:3000/api/posts
 
-
-### Create a new Post
-POST http://localhost:3000/localhost:3000/api/posts
+### Put /Update a post by ID
+PUT http://localhost:3000/api/posts
 Content-Type: application/json
 
 {
-    "id": "1",
-    "title": "Hello",
-    "content": "blubb"
+    
+}
+
+### Create a new Post
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "title" : "Dev test Post",
+    "content" : "Post content"
 }
